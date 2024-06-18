@@ -23,7 +23,7 @@ scoreAudio.src = 'audio/score.mp3'
 const gap = 90;
 
 // Click on button
-document.addEventListener('keydown', moveApp);
+document.addEventListener('click', moveApp);
 
 function moveApp() {
   yPos -= 25;
